@@ -1,0 +1,10 @@
+import random as r
+
+a = int(input(">>"))
+
+def rand():
+    x = r.randint(63,122)
+    return chr(x)
+
+for x in range(a):
+    print(rand(), end = "")
